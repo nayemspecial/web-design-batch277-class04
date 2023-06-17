@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class Four</title>
+    <style>
+        .logo {
+            display: inline;
+            width: 250px;
+        }
+        .logo h1 a {
+            text-decoration: none;
+        }
+        .menu {
+            display: inline;
+            margin: 0;
+            width: 400px;
+        }
+        .menu ul li{
+            list-style: none;
+            margin: 0;
+            display: inline-block;
+            margin-right: 20px;
+        }
+        form, h3 {
+            margin-left: 30px;
+        }
+        #nested-list {
+            margin-left: 30px;
+        }
+        .width {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue; text-decoration: underline; font-size: 40px;"> Inline CSS Heading </h1>
+
+    <p style="color:blueviolet; font-style:;font-weight:600; font-size:x-large;">Inline CSS Paragraph</p>
+
+    <div class="logo">
+        <h1>
+            <a href="">Website Logo</a>
+        </h1>
+    </div>
+    <div class="menu">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+
+    <h3 title="this is registration form title">Registration Form</h3>
+    <form action="">
+        <input class="width" type="text" placeholder="Your Name"><br>
+        <input class="width" type="email" placeholder="Your Email"><br>
+        <input class="width" type="phone" placeholder="Your Phone"><br>
+        <input class="width" type="text" placeholder="User Name"><br>
+        <input class="width" type="password" placeholder="Your password"><br>
+        <textarea> Your Message
+        </textarea><br>
+
+        <label for="name">Your Name:</label><br>
+        <input type="text"><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email"><br>
+    </form>
+
+
+    <ul id="nested-list">
+        <li>Home
+            <ul>
+                <li>Home2</li>
+                <li>Home3</li>
+                <li>Home4</li>
+                <li>Home5</li>
+            </ul>
+        </li>
+        <li>About</li>
+        <li>Blog</li>
+        <li>Contact</li>
+    </ul>
+
+    <table border="1">
+        <tr>
+            <td>Name</td>
+            <td>Class</td>
+            <td>Roll</td>
+            <td>Phone</td>
+            <td>Mobile</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Taohid</td>
+            <td>Nine</td>
+            <td>04</td>
+            <td colspan="2">0413333344</td>
+        </tr>
+        <tr>
+            
+            <td>Eight</td>
+            <td>02</td>
+            <td>041557788</td>
+            <td>01777777777</td>
+        </tr>
+    </table>
+<br>
+<br>
+<br><br><br>
+</body>
+</html>
